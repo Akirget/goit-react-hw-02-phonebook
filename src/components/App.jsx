@@ -72,10 +72,10 @@ class App extends Component {
           flexDirection: 'column',
           fontSize: 18,
 
-          color: '#010101',
+          color: '#cecece',
         }}
       >
-        <h1>Phonebook</h1>
+        <h1 style={{ color: '#ffffff' }}>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
 
         <h2 className={style.titleContacts}>Contacts</h2>
